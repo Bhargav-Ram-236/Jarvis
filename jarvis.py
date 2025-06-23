@@ -74,8 +74,7 @@ def listen():
 
 
 # Replace with your actual API key
-api_key="AIzaSyCRPaimgTssVek0cdiIPWLEXPZNNSD1_bA"
-genai.configure(api_key=api_key)
+
 
 #Search in windows
 def search_in_windows(query):

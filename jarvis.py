@@ -612,27 +612,6 @@ def run_jarvis():
                 speak("OK")
                 continue
 
-# # Main Loop
-# def main():
-#     speak("Hello Ram! Jarvis is ready.")
-#     while True:
-#         query = listen()
-#         if not query:
-#             continue
-
-#         if "exit" in query or "quit" in query:
-#             speak("Goodbye Ram!")
-#             break
-
-#         # Handle app commands
-#         elif "open" in query:
-#             open_application(query)
-#         elif "close" in query:
-#             close_application(query)
-#         else:
-#             response = ask_ollama(query)
-#             speak(response.text)
-
 # Run
 if __name__ == "__main__":
    run_jarvis()
